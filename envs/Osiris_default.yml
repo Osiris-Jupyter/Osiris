@@ -1,0 +1,54 @@
+name: Osiris_default
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - attrs=19.1.0=py37_1
+  - blas=1.0=mkl
+  - bleach=3.1.0=py37_0
+  - ca-certificates=2019.5.15=0
+  - certifi=2019.6.16=py37_0
+  - decorator=4.4.0=py37_1
+  - defusedxml=0.6.0=py_0
+  - entrypoints=0.3=py37_0
+  - gmp=6.1.2=h6c8ec71_1
+  - intel-openmp=2019.4=243
+  - ipython_genutils=0.2.0=py37_0
+  - jinja2=2.10.1=py37_0
+  - jsonschema=3.0.1=py37_0
+  - jupyter_core=4.5.0=py_0
+  - libedit=3.1.20181209=hc058e9b_0
+  - libffi=3.2.1=hd88cf55_4
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libgfortran-ng=7.3.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - markupsafe=1.1.1=py37h7b6447c_0
+  - mistune=0.8.4=py37h7b6447c_0
+  - mkl=2019.4=243
+  - mkl_fft=1.0.12=py37ha843d7b_0
+  - mkl_random=1.0.2=py37hd81dba3_0
+  - nbconvert=5.5.0=py_0
+  - nbformat=4.4.0=py37_0
+  - ncurses=6.1=he6710b0_1
+  - numpy=1.16.4=py37h7e9f1db_0
+  - numpy-base=1.16.4=py37hde5b4d6_0
+  - openssl=1.1.1c=h7b6447c_1
+  - pandoc=2.2.3.2=0
+  - pandocfilters=1.4.2=py37_1
+  - pip=19.1.1=py37_0
+  - pygments=2.4.2=py_0
+  - pyrsistent=0.14.11=py37h7b6447c_0
+  - python=3.7.3=h0371630_0
+  - readline=7.0=h7b6447c_5
+  - setuptools=41.0.1=py37_0
+  - six=1.12.0=py37_0
+  - sqlite=3.28.0=h7b6447c_0
+  - testpath=0.4.2=py37_0
+  - tk=8.6.8=hbc83047_0
+  - traitlets=4.3.2=py37_0
+  - webencodings=0.5.1=py37_1
+  - wheel=0.33.4=py37_0
+  - xz=5.2.4=h14c3975_4
+  - zlib=1.2.11=h7b6447c_3
+prefix: /home/dabao/miniconda3/envs/Osiris_default
+
