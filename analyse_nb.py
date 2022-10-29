@@ -43,7 +43,7 @@ def analyse_nb(path, execute, verbose, match_pattern, self_reproduce, debug, ana
         # self-reproducibility 
         if self_reproduce:
             os.chdir(root_path)
-            interface.analyse_self_reproducibility()
+            interface.analyse_repeatablility()
 
         # debug 
         if debug is not None:
