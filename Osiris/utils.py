@@ -25,7 +25,7 @@ def return_fix_statement_for_random_statement(statement, list_of_import_statemen
 
 def get_execution_order(path):
     code_list = get_code_list(path)
-    graph = CDG()
+    graph = CRG()
     graph.build(code_list)
     path = graph.gen_exec_path(mode='single')
     return path 
@@ -33,7 +33,7 @@ def get_execution_order(path):
 def get_all_potential_execution_orders(path):
     code_list = get_code_list(path)
     oec = get_oec(path)
-    graph = CDG()
+    graph = CRG()
     graph.build(code_list)
     paths = graph.gen_exec_path(mode='all', oec=oec)
     return paths
